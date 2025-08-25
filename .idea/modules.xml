@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA APNA.iml" filepath="$PROJECT_DIR$/JAVA APNA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns Apna/Patterns Apna.iml" filepath="$PROJECT_DIR$/Patterns Apna/Patterns Apna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion_9_Best_Problems/Recursion_9_Best_Problems.iml" filepath="$PROJECT_DIR$/Recursion_9_Best_Problems/Recursion_9_Best_Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Apna/Sorting Apna.iml" filepath="$PROJECT_DIR$/Sorting Apna/Sorting Apna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/x power n - stack height log2n/x power n - stack height log2n.iml" filepath="$PROJECT_DIR$/Recursion/x power n - stack height log2n/x power n - stack height log2n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/x power n - stack height n/x power n - stack height n.iml" filepath="$PROJECT_DIR$/Recursion/x power n - stack height n/x power n - stack height n.iml" />
+    </modules>
+  </component>
+</project>
