@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA APNA.iml" filepath="$PROJECT_DIR$/JAVA APNA.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPS_Inheritance/OOPS_Inheritance.iml" filepath="$PROJECT_DIR$/OOPS_Inheritance/OOPS_Inheritance.iml" />
