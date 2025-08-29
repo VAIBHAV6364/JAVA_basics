@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Reverse_DLL_Iterative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse_DLL_Recursive" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse_SLL_Iterative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse_SLL_Recursive" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections_FindAndDelete_Nth_Element_FromEnd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Custom_FindAndDelete_Nth_Element_FromEnd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/APNA_FindAndDelete_Nth_Element_From_End" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem1 - Find and delete the nth element from the end/APNA_FindAndDelete_Nth_Element_From_End" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem1 - Find and delete the nth element from the end/Collections_FindAndDelete_Nth_Element_FromEnd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem1 - Find and delete the nth element from the end/Custom_FindAndDelete_Nth_Element_FromEnd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem2 - Is a Linked List a Palindrome/DLL_Palindrome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse/Reverse_DLL_Iterative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse/Reverse_DLL_Recursive" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse/Reverse_SLL_Iterative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Reverse/Reverse_SLL_Recursive" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem2 - Is a Linked List a Palindrome/Apna_Version" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem2 - Is a Linked List a Palindrome/Collections_Palindrome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3 Problems/Problem3 - check if a linked list has a cycle + trick to remove it/Apna_CycleCheck" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

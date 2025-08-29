@@ -22,7 +22,7 @@ public class ArrayListImplementation {
         list.set(0,5);               //index, new element
         System.out.println(list);   //[5,1,2,3,6]
 
-        //Delement an element at an index
+        //Deleting  an element at an index
         list.remove(4);
         System.out.println(list);           // removes 6 from [5,1,2,3,6] => [5,1,2,3]
 
