@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Given an integer array of size n , find all elements that appear more than n by 3 times" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hash_Map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Number of Subarray whose Sum is equal to K" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ticket Itinerary Journey Mapping" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Union of Two Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
