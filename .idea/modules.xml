@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary Search Trees- BST/Binary Search Trees- BST.iml" filepath="$PROJECT_DIR$/Binary Search Trees- BST/Binary Search Trees- BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary Trees/Binary Trees.iml" filepath="$PROJECT_DIR$/Binary Trees/Binary Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/HashMap/HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/HashSet/HashSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA APNA.iml" filepath="$PROJECT_DIR$/JAVA APNA.iml" />
