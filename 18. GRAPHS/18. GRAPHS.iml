@@ -3,6 +3,19 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1. ADJACENCY LIST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10. DIJKSTRA'S ALGORITHM (find the shortest path to all nodes from source)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11. BELLMEN-FORD ALGORITHM (find the shortest path to all nodes from source { works for negative weights also })" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12. PRIM'S ALGORITHM ( minimum spanning tree )" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13. STRONGLY CONNECTED COMPONENTS (Kosaraja's Algorithm)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. ADJACENCY MATRIX" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. EDGE LIST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. BFS (Breadth First Search)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5. DFS (Depth First Search)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6. PRINT SOURCE TO TARGET ALL PATHS USING DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7. DETECT A CYCLE IN UNDIRECTED GRAPH" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8. DETECT A CYCLE IN A DIRECTED GRAPH" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9. Topological Sorting in Directed Acyclic Graph" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

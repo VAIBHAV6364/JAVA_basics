@@ -99,7 +99,7 @@ public class DijkstraAlgorithm {
     // Print Adjacency List
     public static void printGraph(ArrayList<Edge> graph[]) {
         for (int i = 0; i < graph.length; i++) {
-            System.out.print("Node " + i + " -> ");
+            System.out.print("Node " + i + " --> ");
             for(Edge e : graph[i]) {
                 System.out.print(e.dest + " ");
             }

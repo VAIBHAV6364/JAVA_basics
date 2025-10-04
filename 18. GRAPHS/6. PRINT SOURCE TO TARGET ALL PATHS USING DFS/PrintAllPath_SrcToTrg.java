@@ -1,5 +1,5 @@
 import java.util.*;
-public class APNA_PrintAllPath_SrcToTrg {
+public class PrintAllPath_SrcToTrg {
     static class Edge{
         int src;
         int dest;
@@ -93,3 +93,142 @@ public class APNA_PrintAllPath_SrcToTrg {
         printAllPaths(graph, visited, 0, "0", 5);
     }
 }
+
+
+/*
+
+Call
+
+We run:
+    printAllPaths(graph, visited, 0, "0", 5);
+
+
+That means:
+    start = 0
+    target = 5
+
+Tracing the Recursion
+
+I’ll represent the recursion stack like this:
+
+Function(curr, path, visited[])
+
+Step 1: Start
+printAllPaths(0, "0")
+mark 0 visited
+neighbors = {1,2}
+
+Step 2: Go to 1
+printAllPaths(1, "0 -> 1")
+mark 1 visited
+neighbors = {0,3}
+0 already visited → skip
+
+go to 3
+Step 3: Go to 3
+printAllPaths(3, "0 -> 1 -> 3")
+mark 3 visited
+neighbors = {1,4,5}
+
+1 already visited → skip
+go to 4
+Step 4: Go to 4
+printAllPaths(4, "0 -> 1 -> 3 -> 4")
+mark 4 visited
+neighbors = {2,3,5}
+
+2 not visited → go
+Step 5: Go to 2
+printAllPaths(2, "0 -> 1 -> 3 -> 4 -> 2")
+mark 2 visited
+neighbors = {0,4}
+both visited → backtrack
+
+Backtrack → unmark 2
+Step 6: Back at 4
+Next neighbor = 5
+printAllPaths(5, "0 -> 1 -> 3 -> 4 -> 5")
+curr == tar (5) → print path
+
+✅ Output:
+0 -> 1 -> 3 -> 4 -> 5
+Backtrack → unmark 5, then unmark 4
+Step 7: Back at 3
+Next neighbor = 5
+printAllPaths(5, "0 -> 1 -> 3 -> 5")
+curr == tar (5) → print path
+
+✅ Output:
+0 -> 1 -> 3 -> 5
+Backtrack → unmark 5, unmark 3, unmark 1
+Step 8: Back at 0
+Next neighbor = 2
+printAllPaths(2, "0 -> 2")
+
+mark 2 visited
+neighbors = {0,4}
+0 visited → skip
+
+go to 4
+Step 9: Go to 4
+printAllPaths(4, "0 -> 2 -> 4")
+
+mark 4 visited
+neighbors = {2,3,5}
+2 visited → skip
+
+go to 3
+Step 10: Go to 3
+printAllPaths(3, "0 -> 2 -> 4 -> 3")
+mark 3 visited
+
+neighbors = {1,4,5}
+go to 1
+Step 11: Go to 1
+printAllPaths(1, "0 -> 2 -> 4 -> 3 -> 1")
+
+mark 1 visited
+neighbors = {0,3}
+both visited → backtrack
+Backtrack → unmark 1
+Step 12: Back at 3
+Next neighbor = 5
+printAllPaths(5, "0 -> 2 -> 4 -> 3 -> 5")
+
+
+curr == tar (5) → print path
+✅ Output:
+0 -> 2 -> 4 -> 3 -> 5
+
+
+Backtrack → unmark 5, unmark 3
+Step 13: Back at 4
+Next neighbor = 5
+printAllPaths(5, "0 -> 2 -> 4 -> 5")
+curr == tar (5) → print path
+
+✅ Output:
+0 -> 2 -> 4 -> 5
+
+
+Backtrack → unmark 5, unmark 4, unmark 2
+Final Output (All Paths from 0 → 5)
+0 -> 1 -> 3 -> 4 -> 5
+0 -> 1 -> 3 -> 5
+0 -> 2 -> 4 -> 3 -> 5
+0 -> 2 -> 4 -> 5
+
+Recursion Stack Example (for path 0 → 1 → 3 → 4 → 5)
+
+At its deepest point:
+
+printAllPaths(0, "0")
+    printAllPaths(1, "0 -> 1")
+        printAllPaths(3, "0 -> 1 -> 3")
+            printAllPaths(4, "0 -> 1 -> 3 -> 4")
+                printAllPaths(5, "0 -> 1 -> 3 -> 4 -> 5")  <-- target reached
+
+
+Then it backtracks step by step, unmarking visited nodes.
+
+ */
