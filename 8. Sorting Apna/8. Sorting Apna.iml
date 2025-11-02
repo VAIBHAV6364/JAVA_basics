@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/MergeSort (imp)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/QuickSort (imp)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SelectionSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Counting Sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HeapSort" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
